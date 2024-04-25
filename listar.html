@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/custom_adm.css">
+    <link rel="shourtcut icon" href="imagens/icon/five-icon.png">
+    <title>Adm - Soft</title>
+</head>
+
+<body>
+    <!--Inicio Navbar-->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <img src="imagens/logo/logo-soft.jpg" alt="Soft" class="logo" width="40">
+        </div>
+
+        <div class="navbar-content">
+            <div class="notification">
+                <i class="fa-solid fa-bell"></i>
+                <span class="number">7</span>
+                <div class="dropdown-menu">
+                <div class="dropdown-content">
+                    <li>
+                        <img src="imagens/user/user.png" alt="Usuario" width="40">
+                        <div class="text">
+                            readable content of a page when looking at its layout.
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagens/user/user.png" alt="Usuario" width="40">
+                        <div class="text">
+                            readable content of a page when looking at its layout.
+                        </div>
+                    </li>
+                </div>
+              </div>  
+            </div>
+            <div class="avatar"> 
+                <img src="imagens/user/user.png" alt="Usuario" width="40">
+                <div class="dropdown-menu setting">
+                   <div class="item">
+                         <span class="fa-solid fa-user"></span> Perfil
+                    </div>
+                    <div class="item">
+                        <span class="fa-solid fa-gear"></span> Configuração
+                   </div>
+                   <div class="item">
+                        <span class="fa-solid fa-arrow-right-from-bracket"></span> Sair
+                   </div> 
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Fim Navbar-->  
+    
+    <!--Inicio Conteudo-->
+    <div class="content">
+        <!--Inicio sidebar-->
+            <div class="sidebar">
+                <a href="index-2.html" class="sidebar-nav active"><i class="icon fa-solid 
+                fa-house"></i><span>Dashboard</span></a>
+
+                <a href="listar.html" class="sidebar-nav active"><i class="icon fa-solid 
+                fa-users"></i><span>Listar</span></a>
+                
+                <a href="login.html" class="sidebar-nav active"><i class="icon fa-solid 
+                fa-house"></i><span></span>Sair</a>
+            </div>
+        <!--fim sidebar-->
+        <!--inicio do conteudo do administrativo -->
+        <div class="wrapper">
+            <div class="row">
+                <div class="top-list">
+                    <span class="title-content">Listar</span>
+                    <div class="top-list-right">
+                        <button type="button" class="btn-success">Cadastrar</button>
+                    </div>
+                </div>
+                <table class="table-list">
+                    <thead class="list-head">
+                        <tr>
+                            <th class="list-head-content">ID</th>
+                            <th class="list-head-content">Nome</th>
+                            <th class="list-head-content">E-mail</th>
+                            <th class="list-head-content">Coluna 1</th>
+                            <th class="list-head-content">Coluna 2</th>
+                            <th class="list-head-content">Coluna 3</th>
+                            <th class="list-head-content">Ações</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody class="list-body">
+                        <tr>
+                            <td class="list-body-content">1</td>
+                            <td class="list-body-content">Gustavo 1</td>
+                            <td class="list-body-content table-sm-none">gustavopastana456@gmail.com</td>
+                            <td class="list-body-content table-sm-none">Coluna 1</td>
+                            <td class="list-body-content table-md-none">Coluna 2</td>
+                            <td class="list-body-content table-lg-none">Coluna 3</td>
+                            <td class="list-body-content">
+                                <button type="button" class="btn-primary">Visualizar</button>
+                                <button type="button" class="btn-warning">Editar</button>
+                                <button type="button" class="btn-danger">Apagar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="list-body-content">2</td>
+                            <td class="list-body-content">Gustavo 2</td>
+                            <td class="list-body-content table-sm-none">gustavo2pastana456@gmail.com</td>
+                            <td class="list-body-content table-sm-none">Coluna 1</td>
+                            <td class="list-body-content table-md-none">Coluna 2</td>
+                            <td class="list-body-content table-lg-none">Coluna 3</td>
+                            <td class="list-body-content">
+                                <button type="button" class="btn-primary">Visualizar</button>
+                                <button type="button" class="btn-warning">Editar</button>
+                                <button type="button" class="btn-danger">Apagar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="list-body-content">3</td>
+                            <td class="list-body-content">Gustavo 3</td>
+                            <td class="list-body-content table-sm-none">gustavo3pastana456@gmail.com</td>
+                            <td class="list-body-content table-sm-none">Coluna 1</td>
+                            <td class="list-body-content table-md-none">Coluna 2</td>
+                            <td class="list-body-content table-lg-none">Coluna 3</td>
+                            <td class="list-body-content">
+                                <button type="button" class="btn-primary">Visualizar</button>
+                                <button type="button" class="btn-warning">Editar</button>
+                                <button type="button" class="btn-danger">Apagar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="content-pagination">
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#" class="active">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">&raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <!--fim do conteudo do administrativo -->
+    </div>
+    <!--Fim Conteudo-->
+
+    <script src="js/custm_adm.js"></script>
+
+</body>
+</html>
